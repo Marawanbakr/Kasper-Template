@@ -172,6 +172,12 @@ marquee {
     display: none;
 }
 }
+@media (max-width: 380px) {
+marquee {
+    width: 165px
+}
+    
+}
 header .container {
     display: flex;
     justify-content: space-between;
@@ -320,7 +326,7 @@ nav .main-design button span {
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
+}
 nav .main-design button span:after {
     content: '\00bb';
     position: absolute;
@@ -328,16 +334,26 @@ nav .main-design button span:after {
     top: 0;
     right: -20px;
     transition: 0.5s;
-  }
+}
 nav .main-design button:hover {
     background-color: #607d8b;
-  }
+}
 nav .main-design button:hover span {
     padding-right: 25px;
-  }
+}
 nav .main-design button:hover span:after {
     opacity: 1;
     right: 0;
+}
+@media (max-width: 530px) {
+nav .main-design {
+    position: absolute;
+    left: 14.5%;
+    top: 99px;
+}
+nav .main-design button {
+    padding: 3px;
+}
 }
 /* End style button */
 
@@ -347,10 +363,10 @@ nav .main-design button:hover span:after {
     }
     .landing .text .content {
         max-width: 100%;   
-     }
+    }
 }
 .landing .text .content {
-   max-width: 500px;   
+    max-width: 500px;   
 }
 .landing .text .content h2 {
     text-align: center;
