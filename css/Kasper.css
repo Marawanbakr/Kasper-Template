@@ -348,7 +348,7 @@ nav .main-design button:hover span:after {
 @media (max-width: 530px) {
 nav .main-design {
     position: absolute;
-    left: 14.5%;
+    left: 21.5%;
     top: 99px;
 }
 nav .main-design button {
