@@ -166,7 +166,7 @@ header {
     right: 104px;
   }
 marquee { 
-    width: 280px;
+    width: 186px;
 }
 .hradr-plastin img {
     display: none;
@@ -348,7 +348,7 @@ nav .main-design button:hover span:after {
 @media (max-width: 530px) {
 nav .main-design {
     position: absolute;
-    left: 21.5%;
+    left: 17%;
     top: 99px;
 }
 nav .main-design button {
